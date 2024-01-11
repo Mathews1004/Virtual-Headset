@@ -3,6 +3,9 @@ body {
   color: #fff;
 
   font-family: satoshi;
+  margin: 0;
+
+  height: 100vh;
 }
 
 /* header */
@@ -82,12 +85,16 @@ body {
 
 #waves {
   position: absolute;
+  z-index: 1;
+
+  width: 100vw;
 }
 
 #virtual {
-  margin: 148px 0px 0px 256px;
+  margin: 96px 0px 0px 256px;
 
   width: 630px;
+  position: absolute;
 }
 
 #virtual h1 {
@@ -196,6 +203,55 @@ body {
   align-items: center;
 }
 
+#hero {
+  width: 995px;
+  height: 636px;
 
+  margin: 88px 0px 0px 859px;
 
+  position: absolute;
+  z-index: 2;
 
+  display: flex;
+}
+
+#oculus {
+  margin: 32px 0px 0px 187px;
+
+  width: 575px;
+  height: 533px;
+}
+
+#pros {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+
+  height: 32px;
+
+  position: absolute;
+
+  margin: 606px 0px 0px 189px;
+}
+
+#pros div {
+  display: flex;
+  gap: 24px;
+}
+
+#pros h4 {
+  margin: 0;
+}
+
+#hello {
+  position: absolute;
+}
+
+#games {
+  width: 137.043px;
+  height: 84.697px;
+
+  position: absolute;
+
+  margin: 138px 0px 0px 693px;
+}
