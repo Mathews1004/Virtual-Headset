@@ -87,7 +87,7 @@ body {
   position: absolute;
   z-index: 1;
 
-  width: 100vw;
+  width: 100%;
 }
 
 #virtual {
@@ -255,3 +255,16 @@ body {
 
   margin: 138px 0px 0px 693px;
 }
+
+#line {
+  width: 1005px;
+  height: 4px;
+
+  position: absolute;
+
+  margin: 567px 0px 0px 0px;
+}
+
+
+
+
