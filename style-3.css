@@ -1,0 +1,104 @@
+#frame20 {
+  margin: 503px 0px 0px 256px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+  width: 568px;
+  height: 435px;
+
+  gap: 40px;
+
+  position: absolute;
+}
+
+#frame20 h1 {
+  color: #fff;
+  font-family: Satoshi;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 130%; /* 72.8px */
+  letter-spacing: -1.12px;
+
+  margin: 0;
+}
+
+#frame20 h5 {
+  color: #fff;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+#frame20 button {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  border-radius: 4px;
+  background: rgba(61, 222, 237, 0.1);
+
+  width: 208px;
+  height: 56px;
+
+  border-style: none;
+}
+
+#frame20 button h3 {
+  color: #3ddeed;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 500;
+
+  margin: 0;
+
+  width: 112px;
+  height: 24px;
+}
+
+#polygon {
+  display: flex;
+}
+
+#polygon h3 {
+  color: #fff;
+  font-family: Satoshi;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px; /* 91.667% */
+}
+
+#polygon img {
+    position: absolute;
+}
+
+#poly8 {
+    margin-left: 30px;
+}
+
+#poly9 {
+    margin-left: 63px;
+}
+#poly10 {
+    margin-left: 92px;
+}
+#poly11 {
+    margin-left: 118px;
+}
+
+#rec1081{
+    position: absolute;
+
+    margin: 409px 0px 0px 976px;
+}
+
+
+
+
+
