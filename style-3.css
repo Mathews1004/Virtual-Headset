@@ -75,30 +75,165 @@
 }
 
 #polygon img {
-    position: absolute;
+  position: absolute;
 }
 
 #poly8 {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 #poly9 {
-    margin-left: 63px;
+  margin-left: 63px;
 }
 #poly10 {
-    margin-left: 92px;
+  margin-left: 92px;
 }
 #poly11 {
-    margin-left: 118px;
+  margin-left: 118px;
 }
 
-#rec1081{
-    position: absolute;
+#rec1081 {
+  position: absolute;
 
-    margin: 409px 0px 0px 976px;
+  margin: 409px 0px 0px 976px;
 }
 
+#tt {
+  border-radius: 8px;
 
+  box-shadow: 0px 0.33px 0px 0px #ced5dc;
 
+  width: 414px;
+  height: 282px;
 
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
 
+  margin: 639px 0px 0px 976px;
+
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 0.33px 0px 0px #ced5dc;
+
+  padding: 14px 20px;
+
+  position: absolute;
+}
+
+#upper {
+  display: flex;
+  gap: 8px;
+}
+
+#upper div {
+  display: flex;
+  flex-direction: column;
+}
+
+#upper div h4 {
+  margin: 0;
+}
+
+#upper div h5 {
+  margin: 0;
+
+  color: var(--Darken-text, #687684);
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+#vetor {
+  padding-left: 210px;
+}
+
+#local {
+  display: flex;
+
+  color: var(--Darken-text, #687684);
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 246px;
+  height: 19px;
+}
+
+#local h5 {
+  display: flex;
+}
+
+#Twitter {
+  color: var(--Blue-Active, #4c9eeb);
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+
+#number img {
+  width: 386px;
+  height: 0.33px;
+
+  background: #BDC5CD;
+
+  position: absolute;
+}
+
+#numbers {
+  display: flex;
+  gap: 7px;
+
+  color: var(--Darken-text, #687684);
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+#numbers span {
+  display: flex;
+  gap: 7px;
+}
+
+#numbers div {
+  display: flex;
+  gap: 7px;
+}
+
+#numbers h3 {
+  color: var(--Bold-text, #141619);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+#future {
+  color: var(--Bold-text, #141619);
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 31px; /* 140.909% */
+  letter-spacing: -0.7px;
+
+  margin: 0;
+}
+
+#coments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 73px;
+}
