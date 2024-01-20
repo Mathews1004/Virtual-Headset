@@ -1,0 +1,57 @@
+#top-games {
+  margin: 1268px 0px 0px 256px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 1370px;
+}
+
+#top-games h1 {
+  margin: 0;
+}
+
+#top-games h5 {
+  margin: 0;
+}
+
+#arrows {
+  display: flex;
+  gap: 10px;
+}
+
+#arrows button {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: rgba(61, 222, 237, 0.1);
+
+  border-style: none;
+}
+
+#carrosel {
+  display: flex;
+  gap: 52px;
+
+  margin-top: 64px;
+  margin-left: 500px;
+
+  overflow: hidden;
+
+  transition: 3s;
+}
+
+#carrosel img {
+  width: 358.4px;
+  height: 368.8px;
+
+  fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  stroke-width: 3px;
+  stroke: rgba(189, 0, 255, 0.2);
+}
+
+
